@@ -5,6 +5,13 @@ $(document).ready(function () {
   $("#frm-create-bmi").submit(function (e) {
     
     e.preventDefault();
+    
+    var x = document.forms["myForm"]["weight"].value;
+    var y = document.forms["myForm"]["height"].value;
+    if (x == "" || y == "") {
+    alert("Cannot be left blank");
+  }
+  else{
 
     let weight = $('#weight').val();
     let height = $('#height').val();
@@ -37,7 +44,7 @@ $(document).ready(function () {
 
     localStorage.setItem('userList', JSON.stringify(userList));
 
-    displayTable();
+    displayTable();}
   });
 });
 
@@ -64,7 +71,7 @@ function displayTable() {
 
       $('#user-info').html(userInfo);
     } else {
-      $('#user-info').html('No user found');
+      
     }
   }
 
