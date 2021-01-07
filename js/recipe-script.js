@@ -1,9 +1,11 @@
+//Calls API
 function getrecepe(q){
     $.ajax({
     url:"https://api.spoonacular.com/recipes/complexSearch?apiKey=db254b5cd61744d39a2deebd9c361444&addRecipeNutrition=true&query="+q,
     success: function(res) {
-      
+    //Clears previous queries (if have)
     document.getElementById("output").innerHTML = "";
+    //Displays queries into page   
     for (var i=0; i<res.results.length;i++){
     document.getElementById("output").innerHTML+= 
     
