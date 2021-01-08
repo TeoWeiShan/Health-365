@@ -60,7 +60,7 @@ The website is kept as simple as possible to minimise time trying to load and na
     - The project uses **JSHint** to validate JavaScript used on the website.
 - [Color Contrast Accessibility Validator](https://color.a11y.com/Contrast/)
     - The project uses **Color Contrast Accessibility Validator** to validate color contrast on the website.
--[typosaurus](https://typosaur.us/)
+- [typosaurus](https://typosaur.us/)
     - The project uses **typosaurus** to check for spelling errors.
 
 ## Testing
