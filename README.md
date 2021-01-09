@@ -6,7 +6,7 @@ This is a website that acts like a simple tool that allows user to be able to kn
 
 This website is a simple and easy-to-use tool that can help users to have better control of their health.
 
-One of the features such as BMI Tracker allows the user to keep track of their body information such as height and weight and know about their current health status based on the BMI calculated by the website. Another feature such as Recipe Suggestor allows the user to be recommended recipes with basic information that they can make and follow. 
+One of the features such as BMI Tracker allows the user to keep track of their body information such as height and weight and know about their current health status based on the BMI calculated by the website. Another feature such as Recipe Suggester allows the user to be recommended recipes with basic information that they can make and follow. 
 
 The website is kept as simple as possible to minimise time trying to load and navigate through the website. It serves as an good alternative to downloading applications and can be easily accessed on different platforms as long as they have a browser.
 
@@ -27,7 +27,7 @@ The website is kept as simple as possible to minimise time trying to load and na
 - Local Storage - to store user's entered information for future data uses.
 - Chart - to display user's body information in a visual format.
 - Table - to display user's body information in text format.
-#### Recipe Suggestor
+#### Recipe Suggester
 - Form - to search for recipe.
 - API - to retrieve information searched not hosted on the website.
 - Displayable Content - displays information searched not hosted on the website.
@@ -68,7 +68,7 @@ The website is kept as simple as possible to minimise time trying to load and na
     - Go to website's link - should land on homepage.
 2. Enter Site: 
     - Enter site using "BMI Tracker" from navigtion bar or homepage button - should land on "BMI Tracker" page.
-    - Enter site using "Recipe Suggestor" from navigtion bar or homepage button - should land on "Recipe Suggestor" page.
+    - Enter site using "Recipe Suggester" from navigtion bar or homepage button - should land on "Recipe Suggester" page.
 3. BMI Tracker: 
     - Submit form without any inputs or missing inputs - Pop up error message in browser "Cannot be left blank" and data not submitted to local storage and not displayed.
     - Type in form with non-numerical values - Non-numerical values unable to pop-up in form.
@@ -77,12 +77,12 @@ The website is kept as simple as possible to minimise time trying to load and na
     - Type in form with value exceeding 3 in "Enter your height (m)" textbox - Error message in textbox "Value must be greater than or equal to 3" and data not submitted to local storage and not displayed.
     - Enter "BMI Tracker" page without previous data submission - Displays description, form, empty chart and table header only
     - Enter "BMI Tracker" page with previous data submission - Displays description, form, chart and table with previous data stored in local storage.
-4. Recipe Suggestor: 
-    - Enter "Recipe Suggestor" page - Displays description and form.
+4. Recipe Suggester: 
+    - Enter "Recipe Suggester" page - Displays description and form.
     - Submit empty form without any inputs - Displays random list of recipe containing pictures, link and recipe summary. 
     - Submit empty form with any inputs - Displays list of recipe containing pictures, link and recipe summary containing the form inputs.
 
-The website looks similar throughout different browsers and screen except for the homepage where buttons "BMI Tracker" and "Recipe Suggestor" appear in rows in standard PC screen sizes and columns in standard phone screen sizes.
+The website looks similar throughout different browsers and screen except for the homepage where buttons "BMI Tracker" and "Recipe Suggester" appear in rows in standard PC screen sizes and columns in standard phone screen sizes.
 
 ## Deployment
 Website: https://teoweishan.github.io/ID_S10205156J_TeoWeiShan_Assg02
