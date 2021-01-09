@@ -17,7 +17,7 @@ $(document).ready(function () {
     //create object to store in local storage
     let weight = $('#weight').val();
     let height = $('#height').val();
-    let createDate = new Date().toLocaleDateString();
+    let createDate = new Date().toLocaleDateString('en-GB');
     let userBMI = weight / (height * height) ;
     let userStatus = '';
     //assigning BMI status
